@@ -1,19 +1,6 @@
-# AdventOfCode2015
+# Advent of Code 2015 in Elixir
 
-**TODO: Add description**
+Challenges here: http://adventofcode.com/2015
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `advent_of_code_2015` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [{:advent_of_code_2015, "~> 0.1.0"}]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/advent_of_code_2015](https://hexdocs.pm/advent_of_code_2015).
+Solutions are in `lib/` and inputs are in `data/`
 
