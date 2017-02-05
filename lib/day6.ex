@@ -12,8 +12,10 @@ defmodule AdventOfCode2015.Day6 do
 
   def parse_instruction(str) do
     [_, cmd_raw, sy, sx, ey, ex] = Regex.run(@parse_regex, str)
+    # {:operation, {sy, sx}, {ey, ex}}
     {String.split(cmd_raw) |> Enum.take(-1) |> hd |> String.to_atom,
-      {String.to_integer(sy), String.to_integer(sx)}, {String.to_integer(ey), String.to_integer(ex)},
+      {String.to_integer(sy), String.to_integer(sx)},
+      {String.to_integer(ey), String.to_integer(ex)}
     }
   end
 
