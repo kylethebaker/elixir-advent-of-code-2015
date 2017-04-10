@@ -28,6 +28,6 @@ defmodule AdventOfCode2015.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:poison, "~> 3.0"}]
   end
 end
